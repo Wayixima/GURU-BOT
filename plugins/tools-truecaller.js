@@ -16,7 +16,7 @@ let handler = async (m, { conn, text }) => {
   }
 
   try {
-    const installationId = 'a1i0D--j3deY0V_k_vQthFibnfb2sS3cf7uttIZnc7UNs9W9JkCGQCwS671R85tI';
+    const installationId = 'a1i0Z--jzbJC6kx-2_s3OMNW2X7O2Qe3ca-XwmHexijCBA6MNKAO2ciUw756zhWj';
     const apiurl = `https://truecaller-api.vercel.app/search?phone=${encodeURIComponent(phoneNumber)}&id=${installationId}`;
 
     let response = await fetch(apiurl);
